@@ -1,0 +1,5 @@
+- menu_name: "Other Site"
+
+- name: "Online Tools"
+  url: "https://wepplication.github.io/tools/"
+  title: "Online Tools"

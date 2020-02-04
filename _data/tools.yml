@@ -1,0 +1,67 @@
+- url: "/tools/"
+
+- url: "/tools/charMap/"
+
+- url: "/tools/aniGifGen/"
+
+- url: "/tools/asciiArtGen/"
+
+- url: "/tools/barcodeGen/"
+
+- url: "/tools/webEditor/"
+
+- url: "/tools/smi2Srt/"
+
+- url: "/tools/charCounter/"
+
+- url: "/tools/eng2Kor/"
+
+- url: "/tools/magicEyeGen/"
+
+- url: "/tools/tts/"
+
+- url: "/tools/emlViewer/"
+
+- url: "/tools/longUrl/"
+
+- url: "/tools/ipconfig/"
+
+- url: "/tools/lottoNumGen/"
+
+- url: "/tools/flashlight/"
+
+- url: "/tools/postcode/"
+
+- url: "/tools/barcodeScanner/"
+
+- url: "/tools/fileChecksum/"
+
+- url: "/tools/stt/"
+
+
+
+- url: "/tools/htmlCodes/"
+
+- url: "/tools/asciiCodes/"
+
+- url: "/tools/colorPicker/"
+
+- url: "/tools/img2Url/"
+
+- url: "/tools/compareDoc/"
+
+- url: "/tools/beautifyCode/"
+
+- url: "/tools/minifyCode/"
+
+- url: "/tools/encoder/"
+
+- url: "/tools/uuidGen/"
+
+- url: "/tools/keyCode/"
+
+- url: "/tools/htmlViewer/"
+
+- url: "/tools/crypt/"
+
+- url: "/tools/scrapper/"

@@ -1,0 +1,27 @@
+- title: Home
+  url: "/"
+  side: left
+
+- title: Blog
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: "Blog Archive"
+    url: "/blog/archive/"
+    
+- title: Links
+  url: "/links/"
+  side: left
+
+- title: Tools
+  url: "/tools/"
+  side: right
+  dropdown:
+  - title: Changelog
+    url: "/tool/changelog/"
+  - title: "Roadmap"
+    url: "/tool/roadmap/"
+
+- title: Search
+  url: "/search/"
+  side: right

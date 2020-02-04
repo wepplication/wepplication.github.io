@@ -1,0 +1,49 @@
+- name: GitHub
+  url: http://github.com/wepplication
+  class: icon-github
+  title: "GitHub"
+
+#- name: YouTube
+#  url: http://www.youtube.com/
+#  class: icon-youtube
+#  title: "YouTube"
+
+- name: Twitter
+  url: http://twitter.com/sshine1st
+  class: icon-twitter
+  title: "Twitter"
+
+#- name: Mixcloud
+#  url: http://www.mixcloud.com/
+#  class: icon-cloud
+#  title: "Mixcloud"
+
+- name: Google+
+  url: https://plus.google.com/u/0/103958812816364589948
+  class: icon-googleplus
+  title: "Google+"
+
+# - name: Facebook
+#   url: http://www.facebook.com/
+#   class: icon-facebook
+#   title: ""
+
+# - name: Soundcloud
+#   url: http://soundcloud.com/
+#   class: icon-soundcloud
+#   title: ""
+
+# - name: Instagram
+#   url: http://instagram.com/
+#   class: icon-instagram
+#   title: ""
+
+- name: Pinterest
+  url: http://www.pinterest.com/shine1st/
+  class: icon-pinterest
+  title: "Pinterest"
+
+# - name: Xing
+#   url: https://www.xing.com/profile/
+#   class: icon-xing
+#   title: Xing Profil
