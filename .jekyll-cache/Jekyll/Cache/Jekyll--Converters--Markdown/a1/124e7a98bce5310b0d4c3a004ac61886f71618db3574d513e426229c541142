@@ -1,4 +1,4 @@
-I"�j<!--more-->
+I"0m<!--more-->
 
 <hr />
 
@@ -26,7 +26,7 @@ OS별 루비 설치하기 : <a href="https://jekyllrb-ko.github.io/docs/installa
 <p>루비 설치 되어 있으면 루비젬을 통해 Jekyll과 Bundler를 설치합니다.</p>
 
 <figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c"># RubyGems 를 통해 Jekyll 과 Bundler 를 설치한다</span>
-gem <span class="nb">install </span>bundler jekyll</code></pre></figure>
+<span class="nv">$ </span>gem <span class="nb">install </span>bundler jekyll</code></pre></figure>
 
 <hr />
 
@@ -35,17 +35,17 @@ gem <span class="nb">install </span>bundler jekyll</code></pre></figure>
 <p>Jekyll 프로젝트 만들기</p>
 
 <figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c"># ./myblog 에 새 Jekyll 사이트를 생성한다</span>
-jekyll new myblog</code></pre></figure>
+<span class="nv">$ </span>jekyll new myblog</code></pre></figure>
 
 <p>Jekyll은 프로젝트 폴더 내의 파일들을 Jekyll의 규칙에 따라 해석하여 최종적으로 정적인 웹사이트를 _site 디렉터리에 생성합니다.</p>
 
-<figure class="highlight"><pre><code class="language-sh" data-lang="sh">bundle <span class="nb">exec </span>jekyll build <span class="nt">--watch</span>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll build <span class="nt">--watch</span>
 <span class="c"># =&gt; ./_site 에 정적 파일들을 생성합니다.</span>
 <span class="c">#    --watch를 입력하면 변경사항이 감지되면, 자동으로 다시 생성합니다.</span></code></pre></figure>
 
 <p>Jekyll 은 개발 서버도 내장하고 있어서, 로컬상에서 브라우저로 접속하여 사이트가 어떻게 생성될지 미리 살펴볼 수 있습니다.</p>
 
-<figure class="highlight"><pre><code class="language-sh" data-lang="sh">bundle <span class="nb">exec </span>jekyll serve
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll serve
 <span class="c"># =&gt; 개발서버가 실행됩니다. http://localhost:4000/</span></code></pre></figure>
 
 <hr />
@@ -114,13 +114,13 @@ jekyll new myblog</code></pre></figure>
 </table>
 
 <figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c"># 마음에 드는 테마를 로컬 저장소로 clone</span>
-git clone 깃허브주소 프로젝트폴더명
+<span class="nv">$ </span>git clone 깃허브주소 프로젝트폴더명
 <span class="c"># ex) git clone https://github.com/Phlow/feeling-responsive.git username.github.io</span>
 
-<span class="nb">cd </span>프로젝트폴더명  
+<span class="nv">$ </span><span class="nb">cd </span>프로젝트폴더명  
 
 <span class="c"># clone한 프로젝트의 git 삭제</span>
-<span class="nb">rm</span> <span class="nt">-rf</span> .git</code></pre></figure>
+<span class="nv">$ </span><span class="nb">rm</span> <span class="nt">-rf</span> .git</code></pre></figure>
 
 <blockquote>
   <p>Ruby는 필요한 라이브러리들을 Gemfile 안에 작성하고 <code class="highlighter-rouge">bundle install</code> 명령어로 Gemfile에 작성된 라이브러리들을 한번에 설치할 수 있다.</p>
@@ -128,14 +128,14 @@ git clone 깃허브주소 프로젝트폴더명
 
 <p>clone한 프로젝트에 _config.yml 등의 파일들을 나에게 맞게 수정을 한 후 내 저장소에 PUSH 하기</p>
 
-<figure class="highlight"><pre><code class="language-sh" data-lang="sh">git init
-git add <span class="nb">.</span>
-git commit <span class="nt">-m</span> <span class="s2">"Initial commit"</span>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nv">$ </span>git init
+<span class="nv">$ </span>git add <span class="nb">.</span>
+<span class="nv">$ </span>git commit <span class="nt">-m</span> <span class="s2">"Initial commit"</span>
 <span class="c"># 깃 원격저장소를 위에서 만든 저장소로 설정</span>
-git remote add origin git@github.com:username/username.github.io.git
+<span class="nv">$ </span>git remote add origin git@github.com:username/username.github.io.git
 
 <span class="c"># 원격 저장소에 PUSH</span>
-git push <span class="nt">-u</span> origin master</code></pre></figure>
+<span class="nv">$ </span>git push <span class="nt">-u</span> origin master</code></pre></figure>
 
 <p>일정 시간이 지난 후<br />
 브라우저로 “https://<strong><em>사용자이름</em></strong>.github.io/” 에 접속하면 지킬 테마가 적용된 블로그가 생긴것을 볼 수 있습니다.</p>
@@ -461,36 +461,36 @@ end
 <p><a href="https://jekyllrb-ko.github.io/docs/installation/" target="_blank">[루비 설치]</a></p>
 
 <figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c"># Jekyll과 Bundler 설치</span>
-gem <span class="nb">install </span>bundler jekyll</code></pre></figure>
+<span class="nv">$ </span>gem <span class="nb">install </span>bundler jekyll</code></pre></figure>
 
 <p>깃허브에 “<strong><em>사용자이름</em></strong>.github.io”로 GitHub 저장소 생성</p>
 
 <figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c"># 마음에 드는 테마를 로컬 저장소로 clone</span>
-git clone 깃허브주소 프로젝트폴더명
+<span class="nv">$ </span>git clone 깃허브주소 프로젝트폴더명
 <span class="c"># ex) git clone https://github.com/Phlow/feeling-responsive.git 사용자이름.github.io</span>
 
-<span class="nb">cd </span>사용자이름.github.io  
+<span class="nv">$ </span><span class="nb">cd </span>사용자이름.github.io  
 
 <span class="c"># clone한 프로젝트의 git 삭제</span>
-<span class="nb">rm</span> <span class="nt">-rf</span> .git
+<span class="nv">$ </span><span class="nb">rm</span> <span class="nt">-rf</span> .git
 
 <span class="c"># gem 라이브러리 설치</span>
-bundle <span class="nb">install</span>
+<span class="nv">$ </span>bundle <span class="nb">install</span>
 
 <span class="c"># jekyll 서버 실행</span>
-bundle <span class="nb">exec </span>jekyll serve</code></pre></figure>
+<span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll serve</code></pre></figure>
 
 <p>clone한 테마 프로젝트에 _config.yml 등의 파일들을 나에게 맞게 수정을 한 후 내 저장소에 PUSH 하기</p>
 
-<figure class="highlight"><pre><code class="language-sh" data-lang="sh">git init
-git add <span class="nb">.</span>
-git commit <span class="nt">-m</span> <span class="s2">"Initial commit"</span>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nv">$ </span>git init
+<span class="nv">$ </span>git add <span class="nb">.</span>
+<span class="nv">$ </span>git commit <span class="nt">-m</span> <span class="s2">"Initial commit"</span>
 
 <span class="c"># 깃 원격저장소를 위에서 만든 저장소로 설정</span>
-git remote add origin git@github.com:사용자이름/사용자이름.github.io.git
+<span class="nv">$ </span>git remote add origin git@github.com:사용자이름/사용자이름.github.io.git
 
 <span class="c"># 원격 저장소에 PUSH</span>
-git push <span class="nt">-u</span> origin master</code></pre></figure>
+<span class="nv">$ </span>git push <span class="nt">-u</span> origin master</code></pre></figure>
 
 <p>일정 시간이 지난 후<br />
 “https://<strong><em>사용자이름</em></strong>.github.io/” 으로 사이트 접속</p>
@@ -528,7 +528,7 @@ git push <span class="nt">-u</span> origin master</code></pre></figure>
     
       <li><a href="http://wepplication.run.goorm.io/programming/jekyll/">Jekyll &middot; <strong>GitHub Pages &amp; Jekyll을 이용한 무료 블로그 만들기</strong></a></li>
     
-      <li><a href="http://wepplication.run.goorm.io/programming/github-pages/">GitHub Pages &middot; <strong>GitHub Pages로 사이트 만들기</strong></a></li>
+      <li><a href="http://wepplication.run.goorm.io/programming/github-pages/">GitHub Pages &middot; <strong>GitHub Pages를 이용한 무료 홈페이지 만들기</strong></a></li>
     
 
   
