@@ -1,4 +1,4 @@
-I"4<!--more-->
+I"�4<!--more-->
 
 <h2 id="github-란">Github 란?</h2>
 <p>깃허브(Git Hub)는 깃(소프트웨어 개발에서 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하기 위한 분산 버전 관리 시스템)을 좀 더 편하게 이용하도록 만든 
@@ -6,14 +6,32 @@
 깃허브 페이지(GitHub Pages)는 이러한 깃허브에서 제공하는 정적 사이트 호스팅 서비스로 일반적인 HTML 콘텐츠를 지원하는 것 외에도 인기있는 정적 사이트 생성기인 Jekyll을 지원합니다.</p>
 
 <h2 id="github-가입하기">Github 가입하기</h2>
-<p>|<img src="http://wepplication.run.goorm.io/images/post/2018/10/github-pages/github-signup.png" alt="Github 가입창" />|
-|<a href="http://github.com" target="_blank">http://github.com</a> 으로 접속하여 Username, Email, Password를 입력 후 Sign up for GitHub를 눌러 가입 한 후 이메일 인증을 거치면 가입이 끝이납니다.|</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="http://wepplication.run.goorm.io/images/post/2018/10/github-pages/github-signup.png" alt="Github 가입창" /></td>
+    </tr>
+    <tr>
+      <td><a href="http://github.com" target="_blank">http://github.com</a> 으로 접속하여 Username, Email, Password를 입력 후 Sign up for GitHub를 눌러 가입 한 후 이메일 인증을 거치면 가입이 끝이납니다.</td>
+    </tr>
+  </tbody>
+</table>
 
 <p>여기서 사용자이름(Username)은 이후 생성되는 깃허브 페이지 사이트의 도메인이 됩니다. (<strong><em>사용자이름</em></strong>.github.io)</p>
 
 <h2 id="github-저장소-생성하기">GitHub 저장소 생성하기</h2>
-<p>|<img src="http://wepplication.run.goorm.io/images/post/2018/10/github-pages/github-menu.png" alt="저장소 생성 메뉴" />|
-|우측 상단의 “+” 아이콘을 누른 후 “New repository”를 누릅니다.|</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="http://wepplication.run.goorm.io/images/post/2018/10/github-pages/github-menu.png" alt="저장소 생성 메뉴" /></td>
+    </tr>
+    <tr>
+      <td>우측 상단의 “+” 아이콘을 누른 후 “New repository”를 누릅니다.</td>
+    </tr>
+  </tbody>
+</table>
 
 <table>
   <tbody>
@@ -239,10 +257,14 @@ GitHub Pages &gt; Source 항목에서 master branch로 선택 후 Save</p>
   
 
     
-      <li><a href="http://wepplication.run.goorm.io/programming/jekyll/">Jekyll &middot; <strong>GitHub Pages &amp; Jekyll을 이용한 무료 블로그 만들기</strong></a></li>
+      
+        <li><a href="http://wepplication.run.goorm.io/programming/jekyll/">정적 사이트 생성기 &middot; <strong>Jekyll을 이용한 무료 블로그 만들기</strong></a></li>
+  	  
     
-      <li><a href="http://wepplication.run.goorm.io/programming/github-pages/">GitHub Pages &middot; <strong>GitHub Pages를 이용한 무료 홈페이지 만들기</strong></a></li>
+      
     
+      <li class="text-right"><a href="http://wepplication.run.goorm.io/blog/archive/"><strong>More ›</strong></a></li>
+
 
   
 </ul>

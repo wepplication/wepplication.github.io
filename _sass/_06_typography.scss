@@ -233,6 +233,7 @@ article dl dd   { line-height: 1.6; margin-bottom: rem-calc(12); margin-left: re
 /* Quotes
 ------------------------------------------------------------------- */
 
+/*
 blockquote {
     font-style: italic;
     position: relative;
@@ -240,34 +241,71 @@ blockquote {
     margin: 0 30px 30px 30px;
     color:  $grey-11;
 }
+blockquote p {font-style: italic; color: $grey-10; }
+blockquote:before {
+	display:block;content:"「";
+	font-size:80px;
+	line-height: 0;
+	position:absolute;
+	left:-25px;
+	top: auto;
+	color: $grey-11;
+}
+blockquote:after {
+	display:block;
+	content:"」";
+	font-size:80px;
+	line-height: 0;
+	position:absolute;
+	right:-10px;
+	bottom: 20px;
+	color: $grey-11;
+}
+blockquote cite:before {
+	content:"\2014 \0020"
+}
+blockquote cite a,blockquote cite a:visited {
+	color: $grey-10;
+}
+*/
 
-    blockquote p {font-style: italic; color: $grey-10; }
 
-    blockquote:before {
-        display:block;content:"\00BB";
-        font-size:80px;
-        line-height: 0;
-        position:absolute;
-        left:-25px;
-        top: auto;
-        color: $grey-11;
-    }
-    blockquote:after {
-        display:block;
-        content:"\00AB";
-        font-size:80px;
-        line-height: 0;
-        position:absolute;
-        right:-10px;
-        bottom: 20px;
-        color: $grey-11;
-    }
-    blockquote cite:before {
-        content:"\2014 \0020"
-    }
-    blockquote cite a,blockquote cite a:visited {
-        color: $grey-10;
-    }
+
+blockquote {
+	display: block;
+	font-style: italic;
+	position: relative;
+	border: none;
+	padding: 10px;
+	margin: 0 0 20px;
+	color: #4b4b4b;
+	font-size:.9em;
+	line-height:1.2;
+	text-align:justify;
+	border-left:10px solid #46e;
+	border-right: 2px solid #46e;
+	box-shadow:2px 2px 15px #ccc;
+}
+blockquote p {
+	font-style: italic;
+	color: #575757;
+}
+blockquote:after{
+	content:"";
+}
+blockquote a{
+	padding:0 3px;
+}
+blockquote a:hover{
+	color:#666;
+}
+blockquote em {
+	font-style: italic;
+}
+blockquote.warning {
+	border-color: #a00!important;
+}
+
 cite {
     padding-top: 5px;
 }

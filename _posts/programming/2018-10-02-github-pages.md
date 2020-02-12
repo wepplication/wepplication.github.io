@@ -1,6 +1,6 @@
 ---
 layout: page-fullwidth
-subheadline:  "GitHub Pages"
+subheadline:  "정적 웹호스팅"
 title:  "GitHub Pages를 이용한 무료 홈페이지 만들기"
 teaser: "GitHub 사이트 가입부터 git 저장소 생성/제거, 깃허브 페이지를 이용한 사이트 호스팅 하는 방법 소개"
 categories:
@@ -21,13 +21,15 @@ image:
 깃허브 페이지(GitHub Pages)는 이러한 깃허브에서 제공하는 정적 사이트 호스팅 서비스로 일반적인 HTML 콘텐츠를 지원하는 것 외에도 인기있는 정적 사이트 생성기인 Jekyll을 지원합니다.  
 
 ## Github 가입하기
-|![Github 가입창]({{ site.urlimg }}post/2018/10/github-pages/github-signup.png)|
-|[http://github.com](http://github.com){:target="_blank"} 으로 접속하여 Username, Email, Password를 입력 후 Sign up for GitHub를 눌러 가입 한 후 이메일 인증을 거치면 가입이 끝이납니다.|  
+
+| ![Github 가입창]({{ site.urlimg }}post/2018/10/github-pages/github-signup.png) |
+| [http://github.com](http://github.com){:target="_blank"} 으로 접속하여 Username, Email, Password를 입력 후 Sign up for GitHub를 눌러 가입 한 후 이메일 인증을 거치면 가입이 끝이납니다. |  
 
 여기서 사용자이름(Username)은 이후 생성되는 깃허브 페이지 사이트의 도메인이 됩니다. (***사용자이름***.github.io)
 
 
 ## GitHub 저장소 생성하기  
+
 |![저장소 생성 메뉴]({{ site.urlimg }}post/2018/10/github-pages/github-menu.png)|
 |우측 상단의 "+" 아이콘을 누른 후 "New repository"를 누릅니다.|
 
@@ -217,4 +219,4 @@ GitHub Pages : [https://pages.github.com/](https://pages.github.com/){:target="_
 ### 관련글
 {: .t60 }
 
-{% include list-posts tag='Hosting' %}
+{% include list-posts category='programming' %}

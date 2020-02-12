@@ -1,4 +1,4 @@
-I"�Q<!--more-->
+I"�W<!--more-->
 
 <h2 id="redmine">Redmine</h2>
 <p>레드마인(Redmine)은 오픈 소스 프로그램으로 웹 기반의 프로젝트 관리 와 버그 추적 기능을 제공하는 도구이다.</p>
@@ -193,9 +193,22 @@ http://127.0.0.1:80 from your browser.
       password<span class="p">:</span> <span class="s2">"비밀번호"</span></code></pre></figure>
 
 <ul>
-  <li>Gmail 보안설정에서 보안 수준이 낮은 앱에 대한 계정 액세스 변경을 설정
- <a href="https://support.google.com/accounts/answer/6010255?hl=ko" target="_blank">https://support.google.com/accounts/answer/6010255?hl=ko</a><br />
+  <li>Gmail 보안설정에서 보안 수준이 낮은 앱에 대한 계정 액세스 변경을 설정<br />
  <a href="https://myaccount.google.com/lesssecureapps?pli=1" target="_blank">https://myaccount.google.com/lesssecureapps?pli=1</a></li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="http://wepplication.run.goorm.io/images/post/2020/02/redmine/redmine-google-lesssecureapp.png" alt="구글 보안 수준 변경 화면" /></td>
+    </tr>
+    <tr>
+      <td>보안 수준이 낮은 앱 허용을 사용으로 변경한다.</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
   <li>수정 후 서버 재실행</li>
 </ul>
 
@@ -408,6 +421,19 @@ rm</span> <span class="nt">-rf</span> /opt/redmine-3.4.6-5/apps/redmine/htdocs/p
   </tbody>
 </table>
 
+<h2 id="참고자료">참고자료</h2>
+<p>Bitnami 레드마인 Installer : <a href="https://bitnami.com/stack/redmine/installer" target="_blank">https://bitnami.com/stack/redmine/installer</a></p>
+
+<p>Bitnami 커뮤니티 게시판 : <a href="https://community.bitnami.com" target="_blank">https://community.bitnami.com</a></p>
+
+<p>구글 계정 고객센터 : <a href="https://support.google.com/accounts/answer/6010255?hl=ko" target="_blank">https://support.google.com/accounts/answer/6010255?hl=ko</a></p>
+
+<p>레드마인 플러그인 다운로드 : <a href="https://www.redmine.org/plugins?page=1" target="_blank">https://www.redmine.org/plugins?page=1</a></p>
+
+<p>레드마인 테마 다운로드 : <a href="https://www.redmine.org/projects/redmine/wiki/Theme_List" target="_blank">https://www.redmine.org/projects/redmine/wiki/Theme_List</a></p>
+
+<p>CKEditor 플러그인 다운로드 : <a href="https://ckeditor.com/cke4/addons/plugins/all" target="_blank">https://ckeditor.com/cke4/addons/plugins/all</a></p>
+
 <h3 class="t60" id="관련글">관련글</h3>
 
 <ul class="side-nav">
@@ -415,7 +441,19 @@ rm</span> <span class="nt">-rf</span> /opt/redmine-3.4.6-5/apps/redmine/htdocs/p
   
 
     
-      <li><a href="http://wepplication.run.goorm.io/software/redmine/">Redmine &middot; <strong>Redmine 설치 및 플러그인 적용</strong></a></li>
+      
+    
+      
+        <li><a href="http://wepplication.run.goorm.io/links/">꿀정보 &middot; <strong>유용한 사이트 모음</strong></a></li>
+  	  
+    
+      
+        <li><a href="http://wepplication.run.goorm.io/programming/jekyll/">정적 사이트 생성기 &middot; <strong>Jekyll을 이용한 무료 블로그 만들기</strong></a></li>
+  	  
+    
+      
+        <li><a href="http://wepplication.run.goorm.io/programming/github-pages/">정적 웹호스팅 &middot; <strong>GitHub Pages를 이용한 무료 홈페이지 만들기</strong></a></li>
+  	  
     
       <li class="text-right"><a href="http://wepplication.run.goorm.io/blog/archive/"><strong>More ›</strong></a></li>
 

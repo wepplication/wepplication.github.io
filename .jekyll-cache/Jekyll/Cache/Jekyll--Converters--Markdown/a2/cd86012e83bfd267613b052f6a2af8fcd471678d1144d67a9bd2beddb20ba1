@@ -1,4 +1,4 @@
-I"0m<!--more-->
+I"an<!--more-->
 
 <hr />
 
@@ -197,9 +197,11 @@ github의 저장소 README.md 파일 이나 위키 사이트 등에서 마크다
 <span class="gu">### 이건 `&lt;h3&gt;` 태그와 같습니다.</span></code></pre></figure>
 
 <p>결과 :</p>
-<h1 id="이건-h1-태그와-같습니다">이건 <code class="highlighter-rouge">&lt;h1&gt;</code> 태그와 같습니다.</h1>
-<h2 id="이건-h2-태그와-같습니다">이건 <code class="highlighter-rouge">&lt;h2&gt;</code> 태그와 같습니다.</h2>
-<h3 id="이건-h3-태그와-같습니다">이건 <code class="highlighter-rouge">&lt;h3&gt;</code> 태그와 같습니다.</h3>
+<blockquote>
+  <h1 id="이건-h1-태그와-같습니다">이건 <code class="highlighter-rouge">&lt;h1&gt;</code> 태그와 같습니다.</h1>
+  <h2 id="이건-h2-태그와-같습니다">이건 <code class="highlighter-rouge">&lt;h2&gt;</code> 태그와 같습니다.</h2>
+  <h3 id="이건-h3-태그와-같습니다">이건 <code class="highlighter-rouge">&lt;h3&gt;</code> 태그와 같습니다.</h3>
+</blockquote>
 
 <hr />
 
@@ -214,12 +216,14 @@ github의 저장소 README.md 파일 이나 위키 사이트 등에서 마크다
 문장 뒤에 그냥 엔터를 하면 개행이 안된다.
 이 문장은 위 문장에 붙어서 나온다.</code></pre></figure>
 
-<p>결과 :<br />
-문장 뒤에 스페이스바 2번 이상 띄운 후 엔터를 하면 한줄 내려간다.<br />
+<p>결과 :</p>
+<blockquote>
+  <p>문장 뒤에 스페이스바 2번 이상 띄운 후 엔터를 하면 한줄 내려간다.<br />
 문장 쓴 후 엔터를 2번 이상 하면 문단이 나눠진다.</p>
 
-<p>문장 뒤에 그냥 엔터를 하면 개행이 안된다.
+  <p>문장 뒤에 그냥 엔터를 하면 개행이 안된다.
 이 문장은 위 문장에 붙어서 나온다.</p>
+</blockquote>
 
 <hr />
 
@@ -237,15 +241,17 @@ github의 저장소 README.md 파일 이나 위키 사이트 등에서 마크다
 <span class="gs">***굵고 기울여진 글씨**</span><span class="err">*</span>  
 <span class="gs">___이것도 굵고 기울여진 글씨__</span>_</code></pre></figure>
 
-<p>결과 :<br />
-<em>기울여진 글씨</em><br />
+<p>결과 :</p>
+<blockquote>
+  <p><em>기울여진 글씨</em><br />
 <em>이것도 기울여진다</em></p>
 
-<p><strong>굵은 글씨</strong><br />
+  <p><strong>굵은 글씨</strong><br />
 <strong>이것도 굵게쓰기</strong></p>
 
-<p><strong><em>굵고 기울여진 글씨</em></strong><br />
+  <p><strong><em>굵고 기울여진 글씨</em></strong><br />
 <em><strong>이것도 굵고 기울여진 글씨</strong></em></p>
+</blockquote>
 
 <hr />
 
@@ -269,7 +275,7 @@ github의 저장소 README.md 파일 이나 위키 사이트 등에서 마크다
 
 <figure class="highlight"><pre><code class="language-md" data-lang="md"><span class="p">1.</span> 하나
 <span class="p">2.</span> 둘
-<span class="p">    1.</span> 셋에 하나
+<span class="p">    1.</span> 둘에 하나
 <span class="p">
 *</span> 1단계
 <span class="p">    -</span> 2단계
@@ -278,28 +284,30 @@ github의 저장소 README.md 파일 이나 위키 사이트 등에서 마크다
 <span class="p">+</span> 1단계</code></pre></figure>
 
 <p>결과 :</p>
-<ol>
-  <li>하나</li>
-  <li>둘
-    <ol>
-      <li>셋에 하나</li>
-    </ol>
-  </li>
-</ol>
+<blockquote>
+  <ol>
+    <li>하나</li>
+    <li>둘
+      <ol>
+        <li>둘에 하나</li>
+      </ol>
+    </li>
+  </ol>
 
-<ul>
-  <li>1단계
-    <ul>
-      <li>2단계
-        <ul>
-          <li>3단계</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>1단계</li>
-  <li>1단계</li>
-</ul>
+  <ul>
+    <li>1단계
+      <ul>
+        <li>2단계
+          <ul>
+            <li>3단계</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>1단계</li>
+    <li>1단계</li>
+  </ul>
+</blockquote>
 
 <hr />
 
@@ -312,22 +320,22 @@ github의 저장소 README.md 파일 이나 위키 사이트 등에서 마크다
 <span class="p">*****</span></code></pre></figure>
 
 <p>결과 :</p>
-<hr />
-<hr />
-<hr />
-
-<p> </p>
-
-<hr />
+<blockquote>
+  <hr />
+  <hr />
+  <hr />
+</blockquote>
 
 <h3 id="링크">링크</h3>
 
 <figure class="highlight"><pre><code class="language-md" data-lang="md">링크: <span class="p">[</span><span class="nv">Google</span><span class="p">](</span><span class="sx">https://google.com</span> <span class="nn">"마우스 올리면 나오는 글자"</span><span class="p">)</span>  
 새창 링크: <span class="p">[</span><span class="nv">Google</span><span class="p">](</span><span class="sx">https://google.com</span> <span class="nn">"alt text"</span><span class="p">)</span>{:target="_blank"}  </code></pre></figure>
 
-<p>결과 :<br />
-링크: <a href="https://google.com" title="마우스 올리면 나오는 글자">Google</a><br />
+<p>결과 :</p>
+<blockquote>
+  <p>링크: <a href="https://google.com" title="마우스 올리면 나오는 글자">Google</a><br />
 새창 링크: <a href="https://google.com" title="alt text" target="_blank">Google</a></p>
+</blockquote>
 
 <hr />
 
@@ -350,25 +358,26 @@ github의 저장소 README.md 파일 이나 위키 사이트 등에서 마크다
 | Default    | Left       | Center       | Right       |</code></pre></figure>
 
 <p>결과 :</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Header One</th>
-      <th style="text-align: left">Header Two</th>
-      <th style="text-align: center">Header Three</th>
-      <th style="text-align: right">Header Four</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Default</td>
-      <td style="text-align: left">Left</td>
-      <td style="text-align: center">Center</td>
-      <td style="text-align: right">Right</td>
-    </tr>
-  </tbody>
-</table>
+<blockquote>
+  <table>
+    <thead>
+      <tr>
+        <th>Header One</th>
+        <th style="text-align: left">Header Two</th>
+        <th style="text-align: center">Header Three</th>
+        <th style="text-align: right">Header Four</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Default</td>
+        <td style="text-align: left">Left</td>
+        <td style="text-align: center">Center</td>
+        <td style="text-align: right">Right</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
 
 <p><a href="http://www.tablesgenerator.com/markdown_tables" target="_blank">markdown table generator</a> 이 사이트를 통해 테이블 마크다운을 생성할 수 도 있습니다.</p>
 
@@ -398,12 +407,14 @@ github의 저장소 README.md 파일 이나 위키 사이트 등에서 마크다
 
 <p>코드의 앞뒤에 ‘(키보드 물결 표시 자판)을 사용하며 짧은 코드를 쓸 때 유용합니다.</p>
 
-<figure class="highlight"><pre><code class="language-md" data-lang="md">태그가 사라진다 : <span class="nt">&lt;span&gt;</span>hello<span class="nt">&lt;/span&gt;</span>  
-태그가 표현된다 : <span class="sb">`&lt;span&gt;hello&lt;/span&gt;`</span>  </code></pre></figure>
+<figure class="highlight"><pre><code class="language-md" data-lang="md">태그가 표현된다 : <span class="sb">`&lt;span&gt;hello&lt;/span&gt;`</span>  
+태그가 사라진다 : <span class="nt">&lt;span&gt;</span>hello<span class="nt">&lt;/span&gt;</span>  </code></pre></figure>
 
-<p>결과 :<br />
-태그가 사라진다 : <span>hello</span><br />
-태그가 표현된다 : <code class="highlighter-rouge">&lt;span&gt;hello&lt;/span&gt;</code></p>
+<p>결과 :</p>
+<blockquote>
+  <p>태그가 표현된다 : <code class="highlighter-rouge">&lt;span&gt;hello&lt;/span&gt;</code><br />
+태그가 사라진다 : <span>hello</span></p>
+</blockquote>
 
 <hr />
 
@@ -419,11 +430,13 @@ github의 저장소 README.md 파일 이나 위키 사이트 등에서 마크다
 <span class="p">```</span></code></pre></figure>
 
 <p>결과 :</p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+<blockquote>
+  <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
 <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
     <span class="c1"># indented four spaces
 </span>    <span class="k">print</span><span class="p">(</span><span class="s">"x is 1."</span><span class="p">)</span>
-</code></pre></div></div>
+</code></pre></div>  </div>
+</blockquote>
 
 <p>Jekyll 에는 Rouge 를 활용한 코드 구문 강조가 기본적으로 포함되어 있으며, 포스트에 코드 내용을 삽입하는 것 또한 간단합니다. 다음과 같이 전용 Liquid 태그를 사용하기만 하면 됩니다.</p>
 
@@ -526,10 +539,14 @@ end
   
 
     
-      <li><a href="http://wepplication.run.goorm.io/programming/jekyll/">Jekyll &middot; <strong>GitHub Pages &amp; Jekyll을 이용한 무료 블로그 만들기</strong></a></li>
+      
     
-      <li><a href="http://wepplication.run.goorm.io/programming/github-pages/">GitHub Pages &middot; <strong>GitHub Pages를 이용한 무료 홈페이지 만들기</strong></a></li>
+      
+        <li><a href="http://wepplication.run.goorm.io/programming/github-pages/">정적 웹호스팅 &middot; <strong>GitHub Pages를 이용한 무료 홈페이지 만들기</strong></a></li>
+  	  
     
+      <li class="text-right"><a href="http://wepplication.run.goorm.io/blog/archive/"><strong>More ›</strong></a></li>
+
 
   
 </ul>
