@@ -31,9 +31,9 @@ author: sshine1st
 #
 # Start development with › $ JEKYLL_ENV=production jekyll serve --host 0.0.0.0 --config _config_dev.yml
 
-url: 		'http://wepplication.run.goorm.io'
+url: 		'https://wepplication.run.goorm.io'
 baseurl: 	''
-urlimg: 	'http://wepplication.run.goorm.io/images/'
+urlimg: 	'https://wepplication.run.goorm.io/images/'
 
 
 # Logo size is 600x80 pixels
@@ -249,4 +249,13 @@ asciidoctor:
 #  / ___ / /_/ / /_/ / / / / / / / (__  ) 
 # /_/  |_\__,_/\__,_/ /_/ /_/ /_/_/____/  
                                         
-addthis_profile_id: 'ra-5be515b83fb9a3b1'
+# addthis_profile_id: 'ra-5be515b83fb9a3b1'
+
+
+#     ___       __                __  _                                __      
+#    /   | ____/ /   _____  _____/ /_(_)_______  ____ ___  ___  ____  / /______
+#   / /| |/ __  / | / / _ \/ ___/ __/ / ___/ _ \/ __ `__ \/ _ \/ __ \/ __/ ___/
+#  / ___ / /_/ /| |/ /  __/ /  / /_/ (__  )  __/ / / / / /  __/ / / / /_(__  ) 
+# /_/  |_\__,_/ |___/\___/_/   \__/_/____/\___/_/ /_/ /_/\___/_/ /_/\__/____/  
+                                                                             
+# google-adsense-clientid: 'ca-pub-2077999268380568'

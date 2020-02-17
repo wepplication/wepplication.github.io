@@ -2,11 +2,12 @@
 layout: page-fullwidth
 subheadline:  "정적 웹호스팅"
 title:  "GitHub Pages를 이용한 무료 홈페이지 만들기"
-teaser: "GitHub 사이트 가입부터 git 저장소 생성/제거, 깃허브 페이지를 이용한 사이트 호스팅 하는 방법 소개"
+teaser: "정적 웹 사이트 호스팅을 해주는 깃허브 페이지를 이용해 나만의 웹 페이지를 무료로 만들 수 있다. GitHub 사이트 가입부터 git 저장소 생성/제거, 깃허브 페이지를 이용한 웹 사이트 호스팅 하는 방법을 소개한다."
 categories:
     - programming
 tags:
     - Hosting
+    - Github
 header: no
 image:
     title: "post/2018/10/github-pages/github_pages.jpeg"
@@ -15,10 +16,14 @@ image:
 ---
 <!--more-->
 
-## Github 란?
+
+## Github Pages란?
+
 깃허브(Git Hub)는 깃(소프트웨어 개발에서 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하기 위한 분산 버전 관리 시스템)을 좀 더 편하게 이용하도록 만든 
 깃 서버 웹 호스팅 서비스이고 오픈소스 소프트웨어의 중심지(hub) 역할을 하면서 오픈소스 프로젝트가 널리 퍼지는 데 크게 기여하고 있는 서비스입니다.  
 깃허브 페이지(GitHub Pages)는 이러한 깃허브에서 제공하는 정적 사이트 호스팅 서비스로 일반적인 HTML 콘텐츠를 지원하는 것 외에도 인기있는 정적 사이트 생성기인 Jekyll을 지원합니다.  
+
+
 
 ## Github 가입하기
 
@@ -149,32 +154,6 @@ git remote rm 이름
 팝업창에 저장소이름을 입력 후 "I understand the consequences, delete this repository" 버튼을 누른다.
 
 
-## 요약
-
-GitHub 저장소 생성  
-
-{% highlight sh %}
-# 로컬 저장소로 클론
-git clone git@github.com:사용자이름/저장소이름.git
-{% endhighlight %}  
-
-로컬 저장소에 index.html 등(HTML, CSS, JS) 파일추가  
-
-{% highlight sh %}
-# 원격 저장소에 PUSH
-git add .
-git commit -m "commit comment"
-git push
-{% endhighlight %}  
-
-"https://github.com/***사용자이름***/***저장소이름***/settings" 에 접속  
-GitHub Pages > Source 항목에서 master branch로 선택 후 Save  
-
-일정 시간이 지난 후  
-"https://***사용자이름***.github.io/***저장소이름***/" 으로 사이트 접속  
-
-※ 저장소 이름을 "***사용자이름***.github.io" 으로 생성했을 경우 "https://***사용자이름***.github.io/" 으로 사이트 접속  
-
 
 ## TIP : git 설치 없이 사용하기  
 
@@ -200,6 +179,43 @@ GitHub Pages > Source 항목에서 master branch로 선택 후 Save
 
 파일을 수정할 때는 깃허브 페이지에서 파일 내용을 조회 한 뒤 우측 상단 연필 모양의 아이콘을 눌러 수정할 수 있다.  
 
+
+
+## 유사 서비스
+
+깃허브 페이지와 같이 무료로 정적 웹 사이트 호스팅을 제공하는 서비스들이 많이 있다.
+
+> - [Gitlab Pages](https://about.gitlab.com/stages-devops-lifecycle/pages/){:target="_blank"}  
+> - [Netlify](https://www.netlify.com){:target="_blank"}  
+> - [Neocities](https://neocities.org){:target="_blank"}  
+
+
+
+## 요약
+
+GitHub 저장소 생성  
+
+{% highlight sh %}
+# 로컬 저장소로 클론
+git clone git@github.com:사용자이름/저장소이름.git
+{% endhighlight %}  
+
+로컬 저장소에 index.html 등(HTML, CSS, JS) 파일추가  
+
+{% highlight sh %}
+# 원격 저장소에 PUSH
+git add .
+git commit -m "commit comment"
+git push
+{% endhighlight %}  
+
+"https://github.com/***사용자이름***/***저장소이름***/settings" 에 접속  
+GitHub Pages > Source 항목에서 master branch로 선택 후 Save  
+
+일정 시간이 지난 후  
+"https://***사용자이름***.github.io/***저장소이름***/" 으로 사이트 접속  
+
+※ 저장소 이름을 "***사용자이름***.github.io" 으로 생성했을 경우 "https://***사용자이름***.github.io/" 으로 사이트 접속  
 
 
 

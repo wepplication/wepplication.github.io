@@ -1,7 +1,7 @@
 ---
 layout: page
-subheadline:  "AdSens"
-title: "웹 사이트에 광고로 수익내기 구글 AdSens"
+subheadline:  "광고"
+title: "웹 사이트에 광고로 수익내기 구글 AdSense"
 teaser: "웹 사이트로 온라인에서 수익창출"
 categories:
     - document
@@ -10,13 +10,13 @@ tags:
 	- AdSens
 header: no
 image:
-    title: "post/2020/01/adsens/adsens.jpg"
-    thumb: "post/2020/01/adsens/adsens-thumb.jpg"
-    homepage: "post/2020/01/adsens/adsens.jpg"
+    title: "post/2020/01/adsense/adsense.jpg"
+    thumb: "post/2020/01/adsense/adsense-thumb.jpg"
+    homepage: "post/2020/01/adsense/adsense.jpg"
 ---
 <!--more-->
 
-## AdSens란?
+## AdSense란?
 
 수익은 미국 달러로 지급되며 100달러 이상 쌓여야 수익이 지급
 300달러 이하 SC제일은행 300달러 이하에 대해서는 모든 수수료가 면제

@@ -1,4 +1,4 @@
-I"an<!--more-->
+I"�p<!--more-->
 
 <hr />
 
@@ -67,7 +67,7 @@ OS별 루비 설치하기 : <a href="https://jekyllrb-ko.github.io/docs/installa
 
 <h2 id="깃허브github-가입">깃허브(Github) 가입</h2>
 
-<p><a href="http://wepplication.run.goorm.ioprogramming/github-pages/" target="_blank">(“GitHub Pages로 사이트 만들기” 참고).</a></p>
+<p><a href="https://wepplication.run.goorm.io/programming/github-pages/" target="_blank">(“GitHub Pages로 사이트 만들기” 참고).</a></p>
 
 <hr />
 
@@ -78,7 +78,7 @@ OS별 루비 설치하기 : <a href="https://jekyllrb-ko.github.io/docs/installa
 <table>
   <tbody>
     <tr>
-      <td><img src="http://wepplication.run.goorm.io/images/post/2018/10/github-pages/github-menu.png" alt="저장소 생성 메뉴" /></td>
+      <td><img src="https://wepplication.run.goorm.io/images/post/2018/10/github-pages/github-menu.png" alt="저장소 생성 메뉴" /></td>
     </tr>
     <tr>
       <td>우측 상단의 “+” 아이콘을 누른 후 “New repository”를 누릅니다.</td>
@@ -89,7 +89,7 @@ OS별 루비 설치하기 : <a href="https://jekyllrb-ko.github.io/docs/installa
 <table>
   <tbody>
     <tr>
-      <td><img src="http://wepplication.run.goorm.io/images/post/2018/10/github-pages/github-createrepo.png" alt="저장소 생성 폼" /></td>
+      <td><img src="https://wepplication.run.goorm.io/images/post/2018/10/github-pages/github-createrepo.png" alt="저장소 생성 폼" /></td>
     </tr>
     <tr>
       <td>Repository name에 “<strong><em>사용자이름</em></strong>.github.io” 을 입력하고 Create repository 버튼을 눌러줍니다.</td>
@@ -105,7 +105,7 @@ OS별 루비 설치하기 : <a href="https://jekyllrb-ko.github.io/docs/installa
 <table>
   <tbody>
     <tr>
-      <td><img src="http://wepplication.run.goorm.io/images/post/2018/10/jekyll/github_clone_url.png" alt="깃허브 주소 찾기" /></td>
+      <td><img src="https://wepplication.run.goorm.io/images/post/2018/10/jekyll/github_clone_url.png" alt="깃허브 주소 찾기" /></td>
     </tr>
     <tr>
       <td>지킬 테마 깃허브 페이지에서 “Clone or download” 버튼을 누르면 주소를 볼 수 있습니다.</td>
@@ -118,6 +118,9 @@ OS별 루비 설치하기 : <a href="https://jekyllrb-ko.github.io/docs/installa
 <span class="c"># ex) git clone https://github.com/Phlow/feeling-responsive.git username.github.io</span>
 
 <span class="nv">$ </span><span class="nb">cd </span>프로젝트폴더명  
+
+<span class="c"># gem 라이브러리 설치</span>
+<span class="nv">$ </span>bundle <span class="nb">install</span>
 
 <span class="c"># clone한 프로젝트의 git 삭제</span>
 <span class="nv">$ </span><span class="nb">rm</span> <span class="nt">-rf</span> .git</code></pre></figure>
@@ -341,7 +344,7 @@ github의 저장소 README.md 파일 이나 위키 사이트 등에서 마크다
 
 <h3 id="이미지-넣기">이미지 넣기</h3>
 
-<figure class="highlight"><pre><code class="language-md" data-lang="md"><span class="p">-</span> !<span class="p">[</span><span class="nv">마우스 올리면 나오는 글자</span><span class="p">](</span><span class="sx">http://wepplication.run.goorm.io/assets/img/image.png</span> <span class="p">)</span>
+<figure class="highlight"><pre><code class="language-md" data-lang="md"><span class="p">-</span> !<span class="p">[</span><span class="nv">마우스 올리면 나오는 글자</span><span class="p">](</span><span class="sx">https://wepplication.run.goorm.io/assets/img/image.png</span> <span class="p">)</span>
 <span class="p">-</span> !<span class="p">[</span><span class="nv">alt text</span><span class="p">](</span><span class="sx">http://username.github.io/assets/img/image.png</span><span class="p">)</span>
 <span class="p">-</span> !<span class="p">[</span><span class="nv">Image Alt 텍스트</span><span class="p">](</span><span class="sx">/assets/img/image.png</span><span class="p">)</span>
 <span class="p">-</span> !<span class="p">[</span><span class="nv">Image Alt 텍스트</span><span class="p">](</span><span class="sx">/assets/img/image.png</span><span class="p">)</span></code></pre></figure>
@@ -469,6 +472,19 @@ end
 
 <hr />
 
+<h2 id="다른-정적-사이트-생성기">다른 정적 사이트 생성기</h2>
+
+<p>많은 정적 사이트 생성기 들 중 대표적인 생성기는 아래와 같다.</p>
+
+<blockquote>
+  <ul>
+    <li><a href="https://nextjs.org" target="_blank">Next.js</a></li>
+    <li><a href="https://www.gatsbyjs.org" target="_blank">Gatsby</a></li>
+    <li><a href="https://gohugo.io" target="_blank">Hugo</a></li>
+    <li><a href="https://hexo.io" target="_blank">Hexo</a></li>
+  </ul>
+</blockquote>
+
 <h2 id="요약">요약</h2>
 
 <p><a href="https://jekyllrb-ko.github.io/docs/installation/" target="_blank">[루비 설치]</a></p>
@@ -542,10 +558,10 @@ end
       
     
       
-        <li><a href="http://wepplication.run.goorm.io/programming/github-pages/">정적 웹호스팅 &middot; <strong>GitHub Pages를 이용한 무료 홈페이지 만들기</strong></a></li>
+        <li><a href="https://wepplication.run.goorm.io/programming/github-pages/">정적 웹호스팅 &middot; <strong>GitHub Pages를 이용한 무료 홈페이지 만들기</strong></a></li>
   	  
     
-      <li class="text-right"><a href="http://wepplication.run.goorm.io/blog/archive/"><strong>More ›</strong></a></li>
+      <li class="text-right"><a href="https://wepplication.run.goorm.io/blog/archive/"><strong>More ›</strong></a></li>
 
 
   

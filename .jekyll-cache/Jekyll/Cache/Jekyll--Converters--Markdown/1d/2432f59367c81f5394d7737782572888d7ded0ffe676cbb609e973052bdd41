@@ -1,6 +1,7 @@
-I"�W<!--more-->
+I"NY<!--more-->
 
 <h2 id="redmine">Redmine</h2>
+
 <p>레드마인(Redmine)은 오픈 소스 프로그램으로 웹 기반의 프로젝트 관리 와 버그 추적 기능을 제공하는 도구이다.</p>
 
 <p>화면기반의 프로젝트 관리에 도움이 되도록 달력과 간트 차트를 제공하고 일정관리 기능을 제공한다.</p>
@@ -10,10 +11,12 @@
 <p>레드마인은 루비 온 레일즈에 기반하여 작성되었고 멀티 플랫폼을 지원하며 여러가지 종류의 데이터베이스 및 34개의 언어를 지원한다.</p>
 
 <h2 id="bitnami">Bitnami</h2>
+
 <p>비트나미(Bitnami)는 가상 어플라이언스 및 웹 애플리케이션, 개발 스택용 소프트웨어 패키지 및 설치 라이브러리이다.<br />
 레드마인을 한 번의 클릭으로도 손쉽게 설치할 수 있도록 패키징하여 제공한다.</p>
 
 <h2 id="bitnami-redmine-다운로드">Bitnami Redmine 다운로드</h2>
+
 <p>아래 사이트에서 최신 버전의 설치파일을 다운 받을 수 있다.<br />
 <a href="https://bitnami.com/stack/redmine/installer" target="_blank">https://bitnami.com/stack/redmine/installer</a></p>
 
@@ -169,6 +172,7 @@ http://127.0.0.1:80 from your browser.
 /opt/redmine-3.4.6-5/ctlscript.sh restart</code></pre></figure>
 
 <h2 id="smtp-설정">SMTP 설정</h2>
+
 <p>레드마인 메일알림을 이용하기 위해 SMTP 설정을 한다.</p>
 <ul>
   <li>설정파일 수정</li>
@@ -200,7 +204,7 @@ http://127.0.0.1:80 from your browser.
 <table>
   <tbody>
     <tr>
-      <td><img src="http://wepplication.run.goorm.io/images/post/2020/02/redmine/redmine-google-lesssecureapp.png" alt="구글 보안 수준 변경 화면" /></td>
+      <td><img src="https://wepplication.run.goorm.io/images/post/2020/02/redmine/redmine-google-lesssecureapp.png" alt="구글 보안 수준 변경 화면" /></td>
     </tr>
     <tr>
       <td>보안 수준이 낮은 앱 허용을 사용으로 변경한다.</td>
@@ -221,7 +225,7 @@ http://127.0.0.1:80 from your browser.
 <table>
   <tbody>
     <tr>
-      <td><img src="http://wepplication.run.goorm.io/images/post/2020/02/redmine/redmine-testmail.png" alt="레드마인 테스트메일 보내기" /></td>
+      <td><img src="https://wepplication.run.goorm.io/images/post/2020/02/redmine/redmine-testmail.png" alt="레드마인 테스트메일 보내기" /></td>
     </tr>
     <tr>
       <td>성공시 상단에 “‘이메일주소’님에게 메일이 발송되었습니다.” 라는 문구가 나온다.</td>
@@ -230,6 +234,7 @@ http://127.0.0.1:80 from your browser.
 </table>
 
 <h2 id="plugin-설치">Plugin 설치</h2>
+
 <p>플러그인 다운로드 : <a href="https://www.redmine.org/plugins?page=1" target="_blank">https://www.redmine.org/plugins?page=1</a><br />
 레드마인 버전에 맞는 플러그인을 받아 사용한다.</p>
 <ul>
@@ -255,7 +260,7 @@ bundle <span class="nb">install</span> <span class="nt">--without</span> develop
 <table>
   <tbody>
     <tr>
-      <td><img src="http://wepplication.run.goorm.io/images/post/2020/02/redmine/redmine-progressive-projects-list.png" alt="프로젝트 화면" /></td>
+      <td><img src="https://wepplication.run.goorm.io/images/post/2020/02/redmine/redmine-progressive-projects-list.png" alt="프로젝트 화면" /></td>
     </tr>
     <tr>
       <td>프로젝트들에 대한 진척도를 bar 형태로 표시</td>
@@ -322,7 +327,7 @@ rake redmine:plugins:migrate <span class="nv">RAILS_ENV</span><span class="o">=<
 <table>
   <tbody>
     <tr>
-      <td><img src="http://wepplication.run.goorm.io/images/post/2020/02/redmine/redmine-ckeditor-setting.png" alt="레드마인 에디터 설정 화면" /></td>
+      <td><img src="https://wepplication.run.goorm.io/images/post/2020/02/redmine/redmine-ckeditor-setting.png" alt="레드마인 에디터 설정 화면" /></td>
     </tr>
     <tr>
       <td>본문 형식을 Ckeditor로 변경 후 저장</td>
@@ -392,6 +397,7 @@ rm</span> <span class="nt">-rf</span> /opt/redmine-3.4.6-5/apps/redmine/htdocs/p
 <span class="nb">tail</span> <span class="nt">-1000f</span> /opt/redmine-3.4.6-5/apps/redmine/htdocs/log/production.log</code></pre></figure>
 
 <h2 id="redmine-테마-설치">Redmine 테마 설치</h2>
+
 <p>테마 다운로드 : https://www.redmine.org/projects/redmine/wiki/Theme_List</p>
 
 <ul>
@@ -413,7 +419,7 @@ rm</span> <span class="nt">-rf</span> /opt/redmine-3.4.6-5/apps/redmine/htdocs/p
 <table>
   <tbody>
     <tr>
-      <td><img src="http://wepplication.run.goorm.io/images/post/2020/02/redmine/redmine-theme-setting.png" alt="레드마인 테마 설정 화면" /></td>
+      <td><img src="https://wepplication.run.goorm.io/images/post/2020/02/redmine/redmine-theme-setting.png" alt="레드마인 테마 설정 화면" /></td>
     </tr>
     <tr>
       <td>표시방식에서 원하는 테마 선택</td>
@@ -421,7 +427,19 @@ rm</span> <span class="nt">-rf</span> /opt/redmine-3.4.6-5/apps/redmine/htdocs/p
   </tbody>
 </table>
 
+<h2 id="다른-프로젝트-관리도구">다른 프로젝트 관리도구</h2>
+
+<p>레드마인 외에도 아래와 같은 관리도구들이 있다.</p>
+
+<blockquote>
+  <ul>
+    <li><a href="https://mycollab.com" target="_blank">MyCollab</a></li>
+    <li><a href="https://www.openproject.org" target="_blank">OpenProject</a></li>
+  </ul>
+</blockquote>
+
 <h2 id="참고자료">참고자료</h2>
+
 <p>Bitnami 레드마인 Installer : <a href="https://bitnami.com/stack/redmine/installer" target="_blank">https://bitnami.com/stack/redmine/installer</a></p>
 
 <p>Bitnami 커뮤니티 게시판 : <a href="https://community.bitnami.com" target="_blank">https://community.bitnami.com</a></p>
@@ -434,9 +452,9 @@ rm</span> <span class="nt">-rf</span> /opt/redmine-3.4.6-5/apps/redmine/htdocs/p
 
 <p>CKEditor 플러그인 다운로드 : <a href="https://ckeditor.com/cke4/addons/plugins/all" target="_blank">https://ckeditor.com/cke4/addons/plugins/all</a></p>
 
-<h3 class="t60" id="관련글">관련글</h3>
+<h3 id="관련글">관련글</h3>
 
-<ul class="side-nav">
+<ul class="side-nav t60">
 
   
 
@@ -444,18 +462,18 @@ rm</span> <span class="nt">-rf</span> /opt/redmine-3.4.6-5/apps/redmine/htdocs/p
       
     
       
-        <li><a href="http://wepplication.run.goorm.io/links/">꿀정보 &middot; <strong>유용한 사이트 모음</strong></a></li>
+        <li><a href="https://wepplication.run.goorm.io/links/">꿀정보 &middot; <strong>유용한 사이트 모음</strong></a></li>
   	  
     
       
-        <li><a href="http://wepplication.run.goorm.io/programming/jekyll/">정적 사이트 생성기 &middot; <strong>Jekyll을 이용한 무료 블로그 만들기</strong></a></li>
+        <li><a href="https://wepplication.run.goorm.io/programming/jekyll/">정적 사이트 생성기 &middot; <strong>Jekyll을 이용한 무료 블로그 만들기</strong></a></li>
   	  
     
       
-        <li><a href="http://wepplication.run.goorm.io/programming/github-pages/">정적 웹호스팅 &middot; <strong>GitHub Pages를 이용한 무료 홈페이지 만들기</strong></a></li>
+        <li><a href="https://wepplication.run.goorm.io/programming/github-pages/">정적 웹호스팅 &middot; <strong>GitHub Pages를 이용한 무료 홈페이지 만들기</strong></a></li>
   	  
     
-      <li class="text-right"><a href="http://wepplication.run.goorm.io/blog/archive/"><strong>More ›</strong></a></li>
+      <li class="text-right"><a href="https://wepplication.run.goorm.io/blog/archive/"><strong>More ›</strong></a></li>
 
 
   

@@ -91,4 +91,7 @@
 	<style type="text/css">{{ page.style }}</style>
 	{% endunless %}
 
-	<script data-ad-client="ca-pub-2077999268380568" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	{% if site.google-adsense-clientid %}
+	<script data-ad-client="{{ site.google-adsense-clientid }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+	{% endif %}
+</script>
