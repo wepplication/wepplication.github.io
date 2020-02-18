@@ -114,37 +114,53 @@ repository생성후 page를 활성화하면
 git config user.name "사용자 이름"
 git config user.email 이메일주소
 {% endhighlight %}
+
 {% highlight sh %}
 # 현재 디렉토리에 git 저장소를 생성
 git init
 {% endhighlight %}
+
 {% highlight sh %}
 # 수정한 파일들을 스테이징 영역에 올리기
 git add .
 {% endhighlight %}
+
 {% highlight sh %}
 # 스테이징 영역에 올라가 있는 파일들을 커밋
 git commit -m "변경된 메시지 내용을 입력"
 {% endhighlight %}
+
 {% highlight sh %}
 # 원격저장소에 푸시 (-u는 원격저장소로부터 업데이트를 받은 후 push를 한다는 의미, origin과 master는 각각 리모트 저장소와 브랜치를 의미합니다.)
-git push - u origin master
+git push -u origin master
 
 # 강제 push(덮어쓰기)
 git push -f
 {% endhighlight %}
+
 {% highlight sh %}
 # 원격저장소를 복제하여 저장소를 생성
 git clone 저장소주소
 {% endhighlight %}
+
 {% highlight sh %}
 # 새로운 원격 저장소를 추가
 git remote add 이름 저장소주소
 {% endhighlight %}
+
 {% highlight sh %}
 # 원격 저장소를 제거
 git remote rm 이름
 {% endhighlight %}  
+
+{% highlight sh %}
+# 원격 저장소에 있는 .gitignore 파일들 제거
+$ git rm -r --cached .
+$ git add .
+$ git commit -m "Apply .gitignore"
+$ git push
+{% endhighlight %}  
+
 
 
 ## GitHub 저장소 삭제하기
