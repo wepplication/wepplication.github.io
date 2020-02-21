@@ -154,7 +154,8 @@ git remote rm 이름
 {% endhighlight %}  
 
 {% highlight sh %}
-# 원격 저장소에 있는 .gitignore 파일들 제거
+# 무시할 파일을 .gitignore 에 추가하기 전에 git push 했을 경우
+# 원격 저장소에 있는 .gitignore 파일들 제거하기
 $ git rm -r --cached .
 $ git add .
 $ git commit -m "Apply .gitignore"

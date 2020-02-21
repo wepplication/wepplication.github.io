@@ -9,6 +9,12 @@ header:
 permalink: "/tool/changelog/"
 ---
 
+2020-02-20 // [특수문자 표](https://wepplication.github.io/tools/charMap/) 수정
+:    글꼴변환 기능 추가
+
+2020-01-22 // [특수문자 표](https://wepplication.github.io/tools/charMap/) 수정
+:    결합문자 기능 추가
+
 2019-10-18 // [자막 변환기](https://wepplication.github.io/tools/smi2Srt/) 수정
 :    파일 다운로드 되지 않던 문제 수정
 
