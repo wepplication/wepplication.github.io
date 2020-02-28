@@ -9,6 +9,12 @@ header:
 permalink: "/tool/changelog/"
 ---
 
+2020-02-28 // [특수문자 표](https://wepplication.github.io/tools/charMap/) 수정
+:    이모티콘 추가
+
+2020-02-27 // [특수문자 표](https://wepplication.github.io/tools/charMap/) 수정
+:    이모지 추가
+
 2020-02-20 // [특수문자 표](https://wepplication.github.io/tools/charMap/) 수정
 :    글꼴변환 기능 추가
 
