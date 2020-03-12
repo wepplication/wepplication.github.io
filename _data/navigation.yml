@@ -21,6 +21,8 @@
     url: "/tool/changelog/"
   - title: "Roadmap"
     url: "/tool/roadmap/"
+  - title: "Thanks"
+    url: "/tool/thanks/"
 
 - title: Search
   url: "/search/"
