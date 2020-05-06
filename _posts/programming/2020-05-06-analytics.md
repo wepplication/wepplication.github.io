@@ -11,7 +11,7 @@ header: no
 image:
     title: "post/2020/05/analytics/analytics.jpg"
     thumb: "post/2020/05/analytics/analytics-thumb.png"
-    homepage: "post/2018/10/analytics/analytics.jpg"
+    homepage: "post/2020/05/analytics/analytics.jpg"
 ---
 <!--more-->
 
