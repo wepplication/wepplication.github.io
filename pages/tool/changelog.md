@@ -9,6 +9,9 @@ header:
 permalink: "/tool/changelog/"
 ---
 
+2021-06-17 // [아스키아트 생성기](https://wepplication.github.io/tools/asciiArtGen/) 수정
+:   점자 아스키아트 생성 추가<br/>Reference : [Braille-ASCII-Art](https://github.com/LachlanArthur/Braille-ASCII-Art){:target="_blank"}
+
 2020-03-03 // [특수문자 표](https://wepplication.github.io/tools/charMap/) 수정
 :    아스키아트 추가
 
