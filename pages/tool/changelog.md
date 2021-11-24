@@ -124,7 +124,7 @@ permalink: "/tool/changelog/"
 :   텍스트의 글자수 / 바이트(Byte)를 계산하기
 
 2018-10-15 // [바코드/QR코드 생성기](https://wepplication.github.io/tools/barcodeGen/) 복구
-:   별도의 프로그램 설치 없이 바코드/QR코드를 생성<br/>Reference : [jquery-qrcode](https://github.com/jeromeetienne/jquery-qrcode){:target="_blank"}, [JsBarcode](https://github.com/lindell/JsBarcode){:target="_blank"}
+:   별도의 프로그램 설치 없이 바코드/QR코드를 생성<br/>Reference : [node-qrcode](https://github.com/soldair/node-qrcode){:target="_blank"}, [JsBarcode](https://github.com/lindell/JsBarcode){:target="_blank"}
 
 2018-10-15 // [애니메이션 GIF 생성/추출기](https://wepplication.github.io/tools/aniGifGen/) 복구
 :   움짤,짤방 동영상 gif 생성기 / 애니메이션 gif에서 이미지 추출기<br/>Reference : [gif.js](https://github.com/jnordberg/gif.js){:target="_blank"}, [gifuct-js](https://github.com/matt-way/gifuct-js){:target="_blank"}, [FileSaver.js](https://github.com/eligrey/FileSaver.js){:target="_blank"}, [JSZip](http://stuk.github.io/jszip/){:target="_blank"}
